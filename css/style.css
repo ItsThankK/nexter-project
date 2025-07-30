@@ -8,10 +8,18 @@
 
 html {
   font-size: 62.5%;
+  box-sizing: border-box;
 }
 
 body {
-  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+  color: #54483a;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.sidebar {
+  background-color: #c69963;
 }
 
 /*# sourceMappingURL=style.css.map */
