@@ -48,6 +48,8 @@ body {
 .features {
   background-color: #aaa;
   grid-column: center-start/center-end;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .story__pictures {
