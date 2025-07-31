@@ -1,7 +1,28 @@
 .story {
   &__pictures {
-    background-color: $color-primary;
+    background-image: linear-gradient(rgba($color-primary, 0.5)),
+      url(../img/back.jpg);
     grid-column: full-start / col-end 4;
+
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: repeat(6, 1fr);
+    align-items: center;
+  }
+
+  &__img--1 {
+    width: 100%;
+    grid-row: 2 / 6;
+    grid-column: 2 / 6;
+    box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
+  }
+
+  &__img--2 {
+    width: 115%;
+    grid-row: 4 / 6;
+    grid-column: 4 / 7;
+    z-index: 10;
+    box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
   }
 
   &__content {
