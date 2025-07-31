@@ -163,8 +163,14 @@ body {
 }
 
 .homes {
-  background-color: #101d2c;
   grid-column: center-start/center-end;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 7rem;
+}
+
+.home {
+  background-color: #f9f7f6;
 }
 
 .gallery {
