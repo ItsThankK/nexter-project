@@ -226,10 +226,20 @@ body {
 }
 
 .gallery {
-  background-color: #54483a;
+  background-color: #f9f7f6;
   grid-column: full-start/full-end;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(7, 5vw);
+  gap: 1.5rem;
+  padding: 1.5rem;
 }
-
+.gallery__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
 .footer {
   background-color: #101d2c;
   grid-column: full-start/full-end;
