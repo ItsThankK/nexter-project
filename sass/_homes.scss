@@ -8,4 +8,59 @@
 
 .home {
   background-color: $color-grey-light-1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 3.5rem;
+
+  &__img {
+    width: 100%;
+    grid-row: 1 / 2;
+    grid-column: 1 / -1;
+    z-index: 10;
+  }
+
+  &__like {
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+    width: 2.5rem;
+    height: 2.5rem;
+    z-index: 20;
+    justify-self: end;
+    margin: 1rem;
+  }
+
+  &__name {
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+    font-family: $font-display;
+    font-size: 1.6rem;
+    padding: 1.25rem;
+    text-align: center;
+    background-color: $color-secondary;
+    color: #fff;
+    font-weight: 400;
+    width: 80%;
+    justify-self: center;
+    z-index: 30;
+    align-self: end;
+    transform: translateY(50%);
+  }
+
+  &__location,
+  &__rooms,
+  &__area,
+  &__price {
+    svg {
+      fill: $color-primary;
+      width: 2rem;
+      height: 2rem;
+    }
+
+    p {
+    }
+  }
+
+  &__btn {
+    grid-column: 1 / -1;
+  }
 }
