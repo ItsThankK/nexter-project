@@ -240,6 +240,11 @@ body {
   object-fit: cover;
   display: block;
 }
+.gallery__item--1 {
+  grid-row: 1/span 2;
+  grid-column: 1/span 2;
+}
+
 .footer {
   background-color: #101d2c;
   grid-column: full-start/full-end;
