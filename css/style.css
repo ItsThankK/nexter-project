@@ -206,10 +206,20 @@ body {
   align-self: end;
   transform: translateY(50%);
 }
+.home__location, .home__rooms {
+  margin-top: 2.5rem;
+}
+.home__location, .home__rooms, .home__area, .home__price {
+  font-size: 1.5rem;
+  margin-left: 2rem;
+  display: flex;
+  align-items: center;
+}
 .home__location svg, .home__rooms svg, .home__area svg, .home__price svg {
   fill: #c69963;
   width: 2rem;
   height: 2rem;
+  margin-right: 1rem;
 }
 .home__btn {
   grid-column: 1/-1;
