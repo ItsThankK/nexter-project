@@ -8,7 +8,7 @@
   justify-items: center;
   row-gap: 2rem;
 
-    @media only screen and (max-width: $bp-medium) {
+  @media only screen and (max-width: $bp-medium) {
     grid-column: 1 / -1;
   }
 
@@ -18,6 +18,10 @@
     column-gap: 2rem;
     row-gap: 5vh;
     align-items: center;
+
+    @media only screen and (max-width: $bp-medium) {
+      grid-template-columns: repeat(3, min-content max-content);
+    }
   }
 
   &__img {
@@ -29,6 +33,10 @@
   &__sold {
     text-transform: uppercase;
     color: $color-grey-light-2;
-    margin-top: -.3rem;
+    margin-top: -0.3rem;
+
+    @media only screen and (max-width: $bp-medium) {
+      margin-left: -2rem;
+    }
   }
 }
