@@ -320,6 +320,7 @@ body {
   .story__content {
     display: grid;
     grid-column: 1/-1;
+    grid-row: 5/span 1;
     justify-content: center;
     align-items: center;
   }
