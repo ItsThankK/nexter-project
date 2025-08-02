@@ -323,6 +323,7 @@ body {
 }
 .nav__link:hover, .nav__link:active {
   background-color: rgba(255, 255, 255, 0.5);
+  transform: translateY(-0.5rem);
 }
 
 /*# sourceMappingURL=style.css.map */
