@@ -92,6 +92,8 @@ body {
   background-color: #c69963;
   grid-column: sidebar-start/sidebar-end;
   grid-row: 1/-1;
+  display: flex;
+  justify-content: center;
 }
 
 .nav-btn {
@@ -110,10 +112,10 @@ body {
   width: 4.5rem;
 }
 .nav-btn::before {
-  transform: translateY(-1.2rem);
+  transform: translateY(-1.5rem);
 }
 .nav-btn::after {
-  transform: translateY(1.2rem);
+  transform: translateY(1.3rem);
 }
 
 .header {
