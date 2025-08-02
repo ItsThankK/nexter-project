@@ -53,17 +53,25 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-
+    
     @media only screen and (max-width: $bp-medium) {
       display: grid;
       grid-column: 1 / -1;
-      grid-row: 5 / span 1;
+      grid-row: 5 / 6;
       justify-content: center;
       align-items: center;
-
+      
       .btn {
         justify-self: flex-start;
       }
+    }
+    
+    @media only screen and (max-width: $bp-small) {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      margin: 10rem 0;
     }
   }
 

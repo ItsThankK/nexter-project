@@ -6,6 +6,10 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr)); //responsive
   gap: 6rem;
+
+  @media only screen and (max-width: $bp-small) {
+    margin: 5rem 0;
+  }
 }
 
 .feature {
@@ -14,6 +18,10 @@
   row-gap: 1.5rem;
   column-gap: 2.5rem;
   align-items: start;
+
+  &__text {
+    padding-right: 4rem;
+  }
 
   &__icon {
     fill: $color-primary;

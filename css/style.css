@@ -181,6 +181,11 @@ body {
     grid-column: 1/-1;
   }
 }
+@media only screen and (max-width: 37.5em) {
+  .header {
+    row-gap: 2.5rem;
+  }
+}
 .header__logo {
   height: 3rem;
   justify-self: center;
@@ -208,6 +213,11 @@ body {
   grid-template-columns: repeat(4, 1fr);
   justify-items: center;
   align-items: center;
+}
+@media only screen and (max-width: 37.5em) {
+  .header__seenon-logos {
+    column-gap: 1.5rem;
+  }
 }
 .header__seenon-logos img {
   max-height: 2.5rem;
@@ -242,6 +252,11 @@ body {
     grid-template-columns: repeat(3, min-content max-content);
   }
 }
+@media only screen and (max-width: 37.5em) {
+  .realtors__list {
+    grid-template-columns: min-content max-content;
+  }
+}
 .realtors__img {
   width: 7rem;
   display: block;
@@ -265,6 +280,11 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   gap: 6rem;
 }
+@media only screen and (max-width: 37.5em) {
+  .features {
+    margin: 5rem 0;
+  }
+}
 
 .feature {
   display: grid;
@@ -272,6 +292,9 @@ body {
   row-gap: 1.5rem;
   column-gap: 2.5rem;
   align-items: start;
+}
+.feature__text {
+  padding-right: 4rem;
 }
 .feature__icon {
   fill: #c69963;
@@ -335,12 +358,21 @@ body {
   .story__content {
     display: grid;
     grid-column: 1/-1;
-    grid-row: 5/span 1;
+    grid-row: 5/6;
     justify-content: center;
     align-items: center;
   }
   .story__content .btn {
     justify-self: flex-start;
+  }
+}
+@media only screen and (max-width: 37.5em) {
+  .story__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 10rem 0;
   }
 }
 .story__text {
@@ -354,12 +386,22 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   gap: 7rem;
 }
+@media only screen and (max-width: 37.5em) {
+  .homes {
+    margin: 5rem 0;
+  }
+}
 
 .home {
   background-color: #f9f7f6;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   row-gap: 3.5rem;
+}
+@media only screen and (max-width: 37.5em) {
+  .home {
+    padding-right: 4rem;
+  }
 }
 .home__img {
   width: 100%;
@@ -419,6 +461,11 @@ body {
   grid-template-rows: repeat(7, 5vw);
   gap: 1.5rem;
   padding: 1.5rem;
+}
+@media only screen and (max-width: 37.5em) {
+  .gallery {
+    gap: 0.5rem;
+  }
 }
 .gallery__img {
   width: 100%;

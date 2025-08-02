@@ -4,6 +4,10 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   gap: 7rem;
+
+  @media only screen and (max-width: $bp-small) {
+    margin: 5rem 0;
+  }
 }
 
 .home {
@@ -11,6 +15,10 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   row-gap: 3.5rem;
+
+  @media only screen and (max-width: $bp-small) {
+    padding-right: 4rem;
+  }
 
   &__img {
     width: 100%;

@@ -22,6 +22,9 @@
     @media only screen and (max-width: $bp-medium) {
       grid-template-columns: repeat(3, min-content max-content);
     }
+    @media only screen and (max-width: $bp-small) {
+      grid-template-columns: min-content max-content;
+    }
   }
 
   &__img {
