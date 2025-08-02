@@ -8,6 +8,10 @@
   justify-items: center;
   row-gap: 2rem;
 
+    @media only screen and (max-width: $bp-medium) {
+    grid-column: 1 / -1;
+  }
+
   &__list {
     display: grid;
     grid-template-columns: min-content max-content;

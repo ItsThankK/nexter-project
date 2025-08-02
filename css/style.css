@@ -225,6 +225,11 @@ body {
   justify-items: center;
   row-gap: 2rem;
 }
+@media only screen and (max-width: 50em) {
+  .realtors {
+    grid-column: 1/-1;
+  }
+}
 .realtors__list {
   display: grid;
   grid-template-columns: min-content max-content;
