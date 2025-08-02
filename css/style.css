@@ -131,12 +131,16 @@ body {
   background-size: cover;
   background-position: center;
   padding: 8rem;
+  padding-top: 4rem;
   display: grid;
   grid-template-rows: 1fr min-content 6rem 1fr;
+  grid-template-columns: max-content;
   row-gap: 1.5rem;
+  justify-content: center;
 }
 .header__logo {
   height: 3rem;
+  justify-self: center;
 }
 .header__btn {
   align-self: start;
