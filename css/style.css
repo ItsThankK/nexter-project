@@ -326,4 +326,22 @@ body {
   transform: translateY(-0.5rem);
 }
 
+.copyright {
+  font-size: 1.4rem;
+  color: #aaa;
+  margin-top: 6rem;
+  text-align: center;
+}
+.copyright a {
+  text-decoration: none;
+  color: #c69963;
+  font-size: 1.7rem;
+  font-weight: 900;
+  margin-left: 1rem;
+  display: inline-block;
+}
+.copyright a:hover {
+  transform: scale(1.1);
+}
+
 /*# sourceMappingURL=style.css.map */

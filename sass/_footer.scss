@@ -31,3 +31,23 @@
     transform: translateY(-.5rem);
   }
 }
+
+.copyright {
+  font-size: 1.4rem;
+  color: $color-grey-light-2;
+  margin-top: 6rem;
+  text-align: center;
+
+  a {
+    text-decoration: none;
+    color: $color-primary;
+    font-size: 1.7rem;
+    font-weight: 900;
+    margin-left: 1rem;
+    display: inline-block;
+  }
+
+  a:hover {
+    transform: scale(1.1);
+  }
+}
