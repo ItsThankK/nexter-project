@@ -282,7 +282,7 @@ body {
 }
 @media only screen and (max-width: 37.5em) {
   .features {
-    margin: 5rem 0;
+    margin: 10rem 0;
   }
 }
 
@@ -364,15 +364,6 @@ body {
   }
   .story__content .btn {
     justify-self: flex-start;
-  }
-}
-@media only screen and (max-width: 37.5em) {
-  .story__content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    margin: 10rem 0;
   }
 }
 .story__text {

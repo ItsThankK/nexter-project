@@ -65,14 +65,6 @@
         justify-self: flex-start;
       }
     }
-    
-    @media only screen and (max-width: $bp-small) {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: flex-start;
-      margin: 10rem 0;
-    }
   }
 
   &__text {
