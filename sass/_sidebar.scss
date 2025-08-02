@@ -3,3 +3,29 @@
   grid-column: sidebar-start / sidebar-end;
   grid-row: 1 / -1;
 }
+
+.nav-btn {
+  border: none;
+  border-radius: none;
+  background-color: #fff;
+  height: 0.2rem;
+  width: 4.5rem;
+  margin-top: 4rem;
+
+  &::before,
+  &::after {
+    content: "";
+    display: block;
+    background-color: #fff;
+    height: 0.2rem;
+    width: 4.5rem;
+  }
+
+  &::before {
+    transform: translateY(-1.2rem);
+  }
+
+  &::after {
+    transform: translateY(1.2rem);
+  }
+}

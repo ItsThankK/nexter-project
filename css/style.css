@@ -94,6 +94,28 @@ body {
   grid-row: 1/-1;
 }
 
+.nav-btn {
+  border: none;
+  border-radius: none;
+  background-color: #fff;
+  height: 0.2rem;
+  width: 4.5rem;
+  margin-top: 4rem;
+}
+.nav-btn::before, .nav-btn::after {
+  content: "";
+  display: block;
+  background-color: #fff;
+  height: 0.2rem;
+  width: 4.5rem;
+}
+.nav-btn::before {
+  transform: translateY(-1.2rem);
+}
+.nav-btn::after {
+  transform: translateY(1.2rem);
+}
+
 .header {
   background-color: #54483a;
   grid-column: full-start/col-end 6;
