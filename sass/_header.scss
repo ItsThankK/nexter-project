@@ -5,9 +5,19 @@
     url(../img/hero.jpeg);
     background-size: cover;
     background-position: center;
+    padding: 8rem;
+
+    display: grid;
+    grid-template-rows: 1fr min-content 6rem 1fr;
+    row-gap: 1.5rem;
 
   &__logo {
     height: 3rem;
+  }
+
+  &__btn {
+    align-self: start;
+    justify-self: start;
   }
 
   &__seenon-text {
