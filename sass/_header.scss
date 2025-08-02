@@ -25,11 +25,25 @@
   }
 
   &__seenon-text {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: &;
+    font-size: 1.6rem;
+
+    &::before,
+    &::after {
+      content: "-";
+    }
   }
 
   &__seenon-logos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+
     img {
       height: 2.5rem;
+      filter: brightness(70%);
     }
   }
 }
