@@ -303,4 +303,21 @@ body {
   padding: 8rem;
 }
 
+.nav {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap: 2rem;
+}
+.nav__link:link, .nav__link:visited {
+  font-size: 1.4rem;
+  color: #fff;
+  font-family: "Josefin Sans", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  padding: 1.5rem;
+  display: block;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
 /*# sourceMappingURL=style.css.map */
