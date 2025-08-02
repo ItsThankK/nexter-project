@@ -305,8 +305,10 @@ body {
 
 .nav {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
   gap: 2rem;
+  align-items: center;
+  list-style: none;
 }
 .nav__link:link, .nav__link:visited {
   font-size: 1.4rem;
