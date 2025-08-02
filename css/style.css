@@ -288,10 +288,12 @@ body {
   grid-template-rows: repeat(6, 1fr);
   grid-template-columns: repeat(6, 1fr);
   align-items: center;
+  margin-bottom: 2rem;
 }
 @media only screen and (max-width: 50em) {
   .story__pictures {
     grid-column: 1/-1;
+    padding: 3rem;
   }
 }
 .story__img--1 {
@@ -300,12 +302,25 @@ body {
   grid-column: 2/6;
   box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
 }
+@media only screen and (max-width: 50em) {
+  .story__img--1 {
+    grid-column: 1/4;
+    grid-row: 1/-1;
+  }
+}
 .story__img--2 {
   width: 115%;
   grid-row: 4/6;
   grid-column: 4/7;
   z-index: 10;
   box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
+}
+@media only screen and (max-width: 50em) {
+  .story__img--2 {
+    grid-row: 1/-1;
+    height: 100%;
+    width: 100%;
+  }
 }
 .story__content {
   background-color: #f9f7f6;
