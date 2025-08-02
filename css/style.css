@@ -152,6 +152,7 @@ body {
   color: #aaa;
   font-size: 1.6rem;
   align-items: center;
+  gap: 1.5rem;
 }
 .header__seenon-text::before, .header__seenon-text::after {
   content: "";
