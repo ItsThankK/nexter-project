@@ -166,7 +166,7 @@ body {
   justify-items: center;
 }
 .header__seenon-logos img {
-  height: 2.5rem;
+  max-height: 2.5rem;
   filter: brightness(70%);
 }
 
