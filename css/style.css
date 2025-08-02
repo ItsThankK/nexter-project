@@ -289,6 +289,11 @@ body {
   grid-template-columns: repeat(6, 1fr);
   align-items: center;
 }
+@media only screen and (max-width: 50em) {
+  .story__pictures {
+    grid-column: 1/-1;
+  }
+}
 .story__img--1 {
   width: 100%;
   grid-row: 2/6;
@@ -310,6 +315,17 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+}
+@media only screen and (max-width: 50em) {
+  .story__content {
+    display: grid;
+    grid-column: 1/-1;
+    justify-content: center;
+    align-items: center;
+  }
+  .story__content .btn {
+    justify-self: flex-start;
+  }
 }
 .story__text {
   font-size: 1.5rem;

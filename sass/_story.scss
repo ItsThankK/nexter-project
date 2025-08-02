@@ -8,6 +8,10 @@
     grid-template-rows: repeat(6, 1fr);
     grid-template-columns: repeat(6, 1fr);
     align-items: center;
+
+    @media only screen and (max-width: $bp-medium) {
+      grid-column: 1 / -1;
+    }
   }
 
   &__img--1 {
@@ -35,6 +39,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+
+    @media only screen and (max-width: $bp-medium) {
+      display: grid;
+      grid-column: 1 / -1;
+      justify-content: center;
+      align-items: center;
+       
+      .btn {
+        justify-self: flex-start;
+      }
+    }
   }
 
   &__text {
