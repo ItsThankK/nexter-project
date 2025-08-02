@@ -176,6 +176,11 @@ body {
   row-gap: 1.5rem;
   justify-content: center;
 }
+@media only screen and (max-width: 50em) {
+  .header {
+    grid-column: 1/-1;
+  }
+}
 .header__logo {
   height: 3rem;
   justify-self: center;
